@@ -1,5 +1,5 @@
-const DCandidates = () => {
+import React from 'react';
+
+export const DCandidates = () => {
     return(<div> from Dcandidates </div>)
 } 
-
-export const DCandidates;
