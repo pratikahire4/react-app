@@ -1,9 +1,9 @@
 import { ACTION_TYPES } from "./action-types"
 import api from './api'
 
-export const fetchAll = () => {    
+export const fetchAll = () => {
     return dispatch => {
-        api.dCandidate()
+        api.dCandidate().fetchAll()
             .then(response => {
                 dispatch({
                     type: ACTION_TYPES.FETCH_ALL,
